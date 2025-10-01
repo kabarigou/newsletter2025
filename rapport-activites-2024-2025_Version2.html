@@ -1,0 +1,894 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Rapport d’activités ACTU2M — UCLouvain (2024–2025) • Perspectives 2025–2026</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light only" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand: #003DA5;
+      --brand-ink: #0D2A5C;
+      --accent: #00A3E0;
+      --bg: #F6F8FB;
+      --ink: #0F172A;
+      --muted: #42526B;
+      --card: #FFFFFF;
+      --border: #E6EAF2;
+    }
+
+    html, body {
+      padding: 0;
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      line-height: 1.55;
+      font-size: 15.75px; /* base agréable pour A4 et écran */
+    }
+
+    .page {
+      max-width: 880px;
+      margin: 40px auto;
+      padding: 0 24px;
+    }
+
+    .newsletter {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      box-shadow: 0 8px 30px rgba(13, 42, 92, 0.07);
+      overflow: hidden;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 16px;
+      align-items: center;
+      padding: 28px 28px 18px;
+      border-bottom: 1px solid var(--border);
+      background:
+        radial-gradient(1000px 300px at -10% -50%, rgba(0,61,165,0.08), transparent 60%),
+        radial-gradient(900px 250px at 110% -60%, rgba(0,163,224,0.08), transparent 60%),
+        linear-gradient(180deg, #ffffff, #ffffff);
+    }
+
+    .logo {
+      width: 64px;
+      height: 64px;
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      background: #001B5E;
+      color: #fff;
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      user-select: none;
+    }
+
+    .headings h1 {
+      margin: 0 0 4px 0;
+      font-weight: 800;
+      font-size: 24px;
+      letter-spacing: -0.3px;
+      color: var(--brand-ink);
+    }
+    .headings p {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    .banner {
+      padding: 12px 28px;
+      background: linear-gradient(180deg, #F1F6FF, #ECF8FF);
+      border-bottom: 1px solid var(--border);
+      color: var(--brand-ink);
+    }
+
+    .content {
+      padding: 20px 28px 20px;
+    }
+
+    h2 {
+      margin: 28px 0 10px;
+      font-size: 20px;
+      letter-spacing: -0.2px;
+      color: var(--brand-ink);
+    }
+    h3 {
+      margin: 18px 0 8px;
+      font-size: 17px;
+      color: var(--ink);
+    }
+    h4 {
+      margin: 12px 0 6px;
+      font-size: 15.75px;
+    }
+
+    p { margin: 10px 0; }
+
+    ul, ol {
+      margin: 8px 0 0 0;
+      padding-left: 20px;
+    }
+    li { margin: 6px 0; }
+
+    .muted { color: var(--muted); }
+
+    /* Table des matières (navigation) */
+    .toc {
+      border: 1px dashed #C7D7FF;
+      background: #F6F9FF;
+      padding: 14px 16px;
+      border-radius: 12px;
+      margin: 10px 0 18px;
+    }
+    .toc strong { color: var(--brand-ink); }
+    .toc ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 8px 0 0 0;
+    }
+    .toc li { margin: 6px 0; }
+    .toc a {
+      color: var(--brand-ink);
+      text-decoration: none;
+      border-bottom: 1px dashed #D7E3FF;
+    }
+    .toc a:hover { color: var(--accent); border-color: var(--accent); }
+
+    /* Ancrages: marge pour ancrage sous le header */
+    .anchor { scroll-margin-top: 90px; }
+
+    /* Impression A4 */
+    @page { size: A4; margin: 14mm 14mm 16mm; }
+    @media print {
+      body { background: #fff; }
+      .page { margin: 0; padding: 0; }
+      .newsletter { box-shadow: none; border: none; }
+      a { color: inherit; text-decoration: none; }
+      header, .banner { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      h2, h3 { break-after: avoid; }
+      .toc { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <article class="newsletter">
+      <header>
+        <div class="logo" aria-hidden="true">UCL</div>
+        <div class="headings">
+          <h1>Rapport d’activités 2024–2025</h1>
+          <p>Perspectives 2025–2026 — ACTU2M (LSBA/ISBA)</p>
+        </div>
+      </header>
+
+      <div class="banner">
+        Navigation rapide: utilisez le sommaire ci‑dessous pour accéder aux sections.
+      </div>
+
+      <div class="content">
+
+        <nav class="toc">
+          <strong>Sommaire</strong>
+          <ul>
+            <li><a href="#intro">Rapport d’activités 2024–2025</a></li>
+            <li><a href="#production-scientifique">Production scientifique</a></li>
+            <li><a href="#exergue">— En exergue…</a></li>
+            <li><a href="#pubs">— Publications dans des revues scientifiques internationales</a></li>
+            <li><a href="#isba-papers">— ISBA Discussion Papers</a></li>
+            <li><a href="#ouvrages">Ouvrages de recherche et d’enseignement</a></li>
+            <li><a href="#seminaires">Séminaires et ateliers</a></li>
+            <li><a href="#conferences">Participation à des conférences</a></li>
+            <li><a href="#projets">Projets de recherche en cours</a></li>
+            <li><a href="#master">Nouveautés — Master ACTU2M</a></li>
+            <li><a href="#admission">Admission au programme</a></li>
+            <li><a href="#formation-continue">Formation continue</a></li>
+            <li><a href="#prix">Prix et distinctions scientifiques</a></li>
+          </ul>
+        </nav>
+
+        <section id="intro" class="anchor">
+          <p>Au cours de l’année académique 2024-2025, l’équipe de sciences actuarielles de l’UCLouvain a publié 35 articles scientifiques et 17 rapports de recherche sont en cours d’évaluation par des pairs. Elle occupe actuellement le 3ème rang mondial dans le classement de l’Université du Nebraska (Lincoln, USA) reprenant les 50 meilleures universités au monde en termes d’articles scientifiques publiés dans les revues de référence de sciences actuarielles.</p>
+
+          <p>En 2024-2025, l’UCLouvain a diplômé 22 actuaires. A la rentrée 2025-2026, 18 nouveaux étudiants ont été admis dans le programme de master en sciences actuarielles (ACTU2M). Actuellement, 48 étudiants sont inscrits dans le programme ACTU2M qui retrouve sa 1ère place dans Eduniversal Best Masters Ranking. En outre, l’International Insurance Society a renouvelé le label Global Centers of Insurance Excellence (GCIE) reconnaissant la pertinence des recherches menées à l’UCLouvain pour la formation des futurs actuaires et la pratique professionnelle.</p>
+
+          <p>Un nouvel atelier intitulé « Risques émergents et enjeux de société » débute cet automne avec pour objectif de sensibiliser les futurs actuaires aux défis qu’ils devront relever, tout en créant des ponts avec l’industrie en invitant des orateurs de référence du secteur de l’assurance.</p>
+
+          <p>Vous trouverez un résumé complet des activités de l’équipe dans les pages qui suivent.</p>
+
+          <p>Bien cordialement,<br/>Karim Barigou, Michel Denuit et Donatien Hainaut</p>
+        </section>
+
+        <section id="production-scientifique" class="anchor">
+          <h2>Production scientifique</h2>
+
+          <section id="exergue" class="anchor">
+            <h3>En exergue…</h3>
+
+            <h4>Participating life insurances in an equity-Libor market model</h4>
+            <p><strong>Donatien Hainaut, Laurent Devineau (Detralytics)</strong></p>
+            <p>Cet article étudie l’impact de la stratégie obligataire sur la valorisation et le capital de solvabilité des contrats d’assurance-vie avec participation. Nous développons un modèle hybride actions-taux (equity-LMM) qui permet d’intégrer des portefeuilles obligataires multi-maturités, régulièrement réalloués. Une formule semi-analytique et une approche Monte Carlo sont proposées pour évaluer les engagements et mesurer les indicateurs de risque. L’analyse met en évidence que la stratégie imposée par Solvabilité II (durée constante) n’est pas optimale comparée à d’autres méthodes, comme l’appariement partiel des flux. Nos résultats soulignent ainsi que les choix de gestion actif-passif influencent directement le niveau de SCR requis et la performance économique des assureurs.</p>
+
+			<p class=MsoNormal align=center style='text-align:center'><span
+			style='font-size:11.0pt;line-height:115%;mso-ascii-font-family:Aptos;
+			mso-fareast-font-family:Aptos;mso-hansi-font-family:Aptos;mso-bidi-font-family:
+			"Times New Roman";mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+			 coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+			 filled="f" stroked="f">
+			 <v:stroke joinstyle="miter"/>
+			 <v:formulas>
+			  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+			  <v:f eqn="sum @0 1 0"/>
+			  <v:f eqn="sum 0 0 @1"/>
+			  <v:f eqn="prod @2 1 2"/>
+			  <v:f eqn="prod @3 21600 pixelWidth"/>
+			  <v:f eqn="prod @3 21600 pixelHeight"/>
+			  <v:f eqn="sum @0 0 1"/>
+			  <v:f eqn="prod @6 1 2"/>
+			  <v:f eqn="prod @7 21600 pixelWidth"/>
+			  <v:f eqn="sum @8 21600 0"/>
+			  <v:f eqn="prod @7 21600 pixelHeight"/>
+			  <v:f eqn="sum @10 21600 0"/>
+			 </v:formulas>
+			 <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+			 <o:lock v:ext="edit" aspectratio="t"/>
+			</v:shapetype><v:shape id="_x0000_i1046" type="#_x0000_t75" alt="Asset Liability Management: Strategies, Importance, and Best Practices"
+			 style='width:342.6pt;height:190.8pt;visibility:visible;mso-wrap-style:square'>
+			 <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image001.jpg"
+			  o:title=" Strategies, Importance, and Best Practices"/>
+			</v:shape><![endif]--><![if !vml]><img width=457 height=254
+			src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image002.jpg"
+			alt="Asset Liability Management: Strategies, Importance, and Best Practices"
+			v:shapes="_x0000_i1046"><![endif]></span><i><o:p></o:p></i></p>
+			
+            <h4>Peer-to-Peer basis risk management for renewable production parametric insurance</h4>
+            <p><strong>Fallou Niakh (ENSAE, Paris), Alicia Bassiére (Institut Polytechnique, Paris), Michel Denuit, Christian Robert (ISFA, Lyon)</strong></p>
+            <p>Ce projet démontre que la combinaison d’une couverture paramétrique et d’un partage “peer-to-peer” du risque de base est bénéfique pour les parcs photovoltaïques. Une étude de cas menée sur les installations de la région de Münich fait apparaître une diminution de moitié de la volatilité grâce à cette stratégie. Couplée à un mécanisme de marché comme les « contracts for differences », cette nouvelle approche est de nature à favoriser les investissements dans les énergies vertes en réduisant les risques associés.</p>
+
+			<p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
+			style='mso-ansi-language:EN-US;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+			 id="_x0000_i1045" type="#_x0000_t75" alt="Une image contenant énergie solaire, panneau solaire, plein air, Parabole solaire&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+			 style='width:352.2pt;height:154.2pt;visibility:visible;mso-wrap-style:square'>
+			 <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image003.jpg"
+			  o:title="Une image contenant énergie solaire, panneau solaire, plein air, Parabole solaire&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+			</v:shape><![endif]--><![if !vml]><img width=470 height=206
+			src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image004.jpg"
+			alt="Une image contenant énergie solaire, panneau solaire, plein air, Parabole solaire&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+			v:shapes="_x0000_i1045"><![endif]></span><span lang=EN-US style='mso-ansi-language:
+			EN-US'><o:p></o:p></span></p>
+
+            <h4>Granular mortality modeling with temperature and epidemic shocks: A three-state regime-switching approach</h4>
+            <p><strong>Jens Robben (University of Amsterdam), Karim Barigou, Torsten Kleinow (University of Amsterdam)</strong></p>
+            <p>Ce projet propose une nouvelle approche pour mieux comprendre les variations de la mortalité hebdomadaire en France. Le modèle distingue trois régimes : une mortalité « normale » saisonnière, des pics liés aux vagues de chaleur et des hausses dues aux épidémies respiratoires comme la grippe ou le COVID-19. En intégrant des données sur la température et la circulation virale, le modèle s’adapte dynamiquement aux événements inattendus. Cette méthode permet de mieux anticiper les besoins des hôpitaux et des services de santé en cas de crise, tout en tenant compte des différences entre régions et groupes d’âge.</p>
+          
+			<p class=MsoNormal align=center style='text-align:center'><span
+			style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="_x0000_i1044" type="#_x0000_t75"
+			 alt="Une image contenant texte, Tracé, capture d’écran, ligne&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+			 style='width:282.6pt;height:240.6pt;visibility:visible;mso-wrap-style:square'>
+			 <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image005.png"
+			  o:title="Une image contenant texte, Tracé, capture d’écran, ligne&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+			</v:shape><![endif]--><![if !vml]><img width=377 height=321
+			src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image006.png"
+			alt="Une image contenant texte, Tracé, capture d’écran, ligne&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+			v:shapes="_x0000_i1044"><![endif]></span></p>
+		  
+		  </section>
+
+          <section id="pubs" class="anchor">
+            <h3>Publications dans des revues scientifiques internationales</h3>
+            <ol>
+              <li>Belhouari, O., Deelstra, G., Devolder, P. (2025). Hybrid life insurance valuation based on a new standard deviation premium principle in a stochastic interest rate framework. European Actuarial Journal 15, 45-72.</li>
+              <li>Deelstra, G., Devolder, P., du Vivier, B. R. (2024). Impact of correlation between interest rates and mortality rates on the valuation of various life insurance products. ASTIN Bulletin 54, 569-599.</li>
+              <li>Denuit, M., Dhaene, J., Feng, R., Hieber, P., Robert, C.Y. (2024). Decentralized insurance: On the popularity of tontines and peer-to-peer (P2P) insurance schemes. Annals of Actuarial Science 18, 237-241.</li>
+              <li>Denuit, M., Dhaene, J., Ghossoub, M., Robert, C.Y. (2025). Comonotonicity and Pareto optimality, with application to collaborative insurance. Insurance: Mathematics and Economics 120, 1-16.</li>
+              <li>Denuit, M., Huyghe, J., Trufin, J., Verdebout, Th. (2024). Testing for autocalibration with Lorenz and concentration curves. Insurance: Mathematics and Economics 117, 130-139.</li>
+              <li>Denuit, M., Ortega-Jiménez, P., Robert, C. Y. (2025). Conditional expectations given the sum of independent random variables with regularly varying densities. ASTIN Bulletin 55, 449-485.</li>
+              <li>Denuit, M., Robert, C.Y. (2025). Equal compensations under actuarially fair contributions in endowment contingency funds. Risk Sciences 1, article # 100005.</li>
+              <li>Denuit, M., Robert, C.Y. (2024). Conditional mean risk sharing of independent discrete losses in large pools. Methodology and Computing in Applied Probability 26, article # 36. </li>
+              <li>Denuit, M., Trufin, J. (2024). Convex and Lorenz orders under balance correction in nonlife insurance pricing: review and new developments. Insurance: Mathematics and Economics 118, 123-128.</li>
+              <li>Devolder, P., Russo, E., Staino, A. (2024). Fair valuations of insurance policies under multiple risk factors: A flexible lattice approach. ASTIN Bulletin 54, 385-409.</li>
+              <li>Dupret, J.L., Hainaut, D. (2025). Optimal liquidation under indirect price impact with propagator. Quantitative Finance 19, 143–181 </li>
+              <li>Dupret, J.L., Hainaut, D. (2025). A fractional Hawkes process for illiquidity modeling. Mathematics and Financial Economics 19, 143–181.</li>
+              <li>Hainaut, D., Chen, M., Scalas, E. (2025). The rough Hawkes process. Communications in Statistics - Theory and methods 54, 3322-3349.</li>
+              <li>Hainaut, D., Devineau, L. (2025). Participating life insurances in an equity-Libor market model. European Actuarial Journal 15, 381-415.</li>
+              <li>Hainaut, D. (2024).  A mutually exciting rough jump diffusion for asset modelling. Fractional Calculus and Applied Analysis 27, 319-352.</li>
+              <li>Hainaut, D., Casas, A. (2024). Option pricing in the Heston model with physics inspired neural networks. Annals of Finance 20, 353-376</li>
+              <li>Hainaut, D. (2024).  Valuation of guaranteed minimum accumulation benefits (GMAB) with neural networks. Annals of Actuarial Sciences 18, 442-473.</li>
+              <li>Hanna, V., Devolder, P. (2024). Valuation of mixed life insurance contracts under stochastic correlated mortality and interest rates. European Actuarial Journal 14, 63-98.</li>
+              <li>Huyghe, J., Trufin, J., Denuit, M. (2024). Boosting cost-complexity pruned trees on Tweedie responses: The ABT machine for insurance ratemaking. Scandinavian Actuarial Journal 2024, 417-439.</li>
+              <li>Jamotton, C., Hainaut, D. (2024). Variational autoencoder for synthetic data. Intelligent Systems with Applications 24, 200455 </li>
+              <li>Jamotton, C., Hainaut, D., Hames, T. (2024). Insurance analytics with clustering techniques. Risks 12, 141.</li>
+              <li>Ketelbuters, J.J., Hainaut, D. (2024).  A recursive method for fractional Hawkes intensities and the potential approach of credit risk. Journal of Computational and Applied Mathematics 448, 115895.</li>
+              <li>Lopez, O., Denuit, M., Ghossoub, M., Trufin, J., Kher, J., Maillart, A., Raes, E., Rapior, H., Skoubani, M.A., Spoorenberg, B. (2025). Cyber risk: Quantification, stress scenarios, mitigation, and insurance. Casualty Actuarial Society, CAS Research Paper, 1-40.</li>
+              <li>Morsomme, H., Alonso-Garcia, J., Devolder, P. (2025). Intergenerational risk sharing in pay-as-you-go pension schemes. Scandinavian Actuarial Journal 2025, 404-432.</li>
+              <li>Motte, E., Hainaut, D. (2025). Efficient hedging of life insurance portfolio for loss-averse insurers. Insurance: Mathematics and economics 123, 103-116.</li>
+              <li>Motte, E., Hainaut, D. (2024). Partial hedging in rough volatility models. SIAM Journal of Financial Mathematics 15, 601-652.</li>
+              <li>Njike Leunga, C., Hainaut, D. (2024).  Affine Heston model style with self-exciting jumps and long memory.  Annals of Finance 20, 1-43.  </li>
+              <li>Ortega-Jiménez, P., Pellerey, F., Sordo, M. A., Suárez-Llorens, A. (2024). Probability equivalent level for CoVaR and VaR. Insurance: Mathematics and Economics, 115, 22-35.</li>
+              <li>Simon, P.-A., Trufin, J., Denuit, M. (2025). Bivariate Poisson credibility model and bonus-malus scale for claim and near-claim events. North American Actuarial Journal 29, 74-93.</li>
+              <li>Soetewey, A., Legrand, C., Denuit, M., Silversmit, G. (2025). Semi-Markov modeling for disease incidence risk and duration. Biostatistics &amp; Epidemiology 9, e2517916.</li>
+              <li>Soetewey, A., Legrand, C., Denuit, M., Silversmit, G. (2025). Right to be forgotten for mortgage insurance issued to cancer survivors: Critical assessment and new proposal. European Actuarial Journal 15, 15-43.</li>
+              <li>Gauchon, R., Barigou, K. (2024). Expected utility optimization with convolutional stochastically ordered returns. Risks 12, 95.</li>
+              <li>Goes, J., Barigou, K., Leucht, A. (2025). Bayesian mortality modelling with pandemics: A vanishing jump approach. Journal of the Royal Statistical Society Series C: Applied Statistics 74, 1150-1182.</li>
+              <li>Willame, G., Trufin, J., Denuit, M. (2024). Boosted Poisson regression trees: A guide to the BT package in R. Annals of Actuarial Science 18, 605-625.</li>
+              <li>Zeddouk, F., Devolder, P. (2024). Pricing and hedging of longevity basis risk through securitisation. ASTIN Bulletin 54, 159-184.</li>
+            </ol>
+          </section>
+
+          <section id="isba-papers" class="anchor">
+            <h3>ISBA Discussion Papers, rapports de recherche en cours d’évaluation par des pairs</h3>
+            <ol>
+              <li>Alimoradian, B., Barigou, K., Eyraud-Loisel, A. (2025). Derivatives under market impact: Disentangling cost and information. LIDAM Discussion Paper ISBA - 2025/02.</li>
+              <li>Denuit, M., Ortega-Jiménez, P., Robert, C. Y. (2024). No-sabotage under conditional mean risk sharing of dependent-by-mixture insurance losses. LIDAM Discussion Paper ISBA - 2024/19.</li>
+              <li>Denuit, M., Trufin, J. (2024). Comparison of predictors’ performance in insurance pricing: testing for Bregman dominance based on Murphy diagrams. LIDAM Discussion Paper ISBA - 2024/25.</li>
+              <li>Devolder, P., Hartmann, K. (2025). Pensions des pouvoirs locaux en Belgique : La réforme de 2018 à l’épreuve de l’équité intergénérationnelle. LIDAM Discussion Paper ISBA - 2025/01.</li>
+              <li>Dupret, J.L., Hainaut, D. (2024) Deep learning for high-dimensional continuous-time stochastic optimal control without explicit solution. LIDAM Discussion Paper ISBA - 2024/16.</li>
+              <li>Hainaut, D., Denuit, M. (2025). Insurance risk classification with Generalized Gaussian Process regression models. LIDAM Discussion Paper ISBA - 2025/04.</li>
+              <li>Hainaut, D., Dupret, J.L. (2025). Optimal control by policy improvements and constrained Gaussian process regressions. LIDAM Discussion Paper ISBA - 2025/12.</li>
+              <li>Hainaut, D. (2025). In-processing of actuarial and equity fairness constraints for Neural networks. ISBA discussion paper. LIDAM Discussion Paper ISBA – 2025/11.</li>
+              <li>Hainaut, D. (2024). American option pricing with model constrained Gaussian process regression. LIDAM Discussion Paper ISBA - 2024/23.</li>
+              <li>Hainaut, D., Vrins, F. (2024). European option pricing with model constrained Gaussian process regression. LIDAM Discussion Paper ISBA - 2024/21.</li>
+              <li>Hanna, V., Devolder, P. (2024). Deterministic lifestyle investment strategy in mixed life insurance contracts. LIDAM Discussion Paper ISBA – 2024/25.</li>
+              <li>Jamotton, C., Hainaut, D. (2025). A multivariate energy-based fairness adjuster for premiums. LIDAM Discussion Paper ISBA - 2025/09.</li>
+              <li>Jamotton, C., Hainaut, D. (2024). Latent Dirichlet Allocation for structured insurance data. LIDAM Discussion Paper ISBA - 2024/08.</li>
+              <li>Morsomme, H., Alonso-Garcia, J., Devolder, P. (2024).  Intergenerational risk sharing in pay-as-you-go pension schemes. LIDAM Discussion Paper ISBA - 2024/11.</li>
+              <li>Motte, E., Abi-Jaber, E., Hainaut, D. (2025). The Volterra Stein-Stein model with stochastic interest rates. LIDAM Discussion Paper ISBA - 2025/03.</li>
+              <li>Niakh, F., Bassiére, A., Denuit, M., Robert, C.Y. (2025). Peer-to-Peer basis risk management for renewable production parametric insurance. LIDAM Discussion Paper ISBA - 2025/07.</li>
+              <li>Robben, J., Barigou, K., Kleinow, T. (2025). Granular mortality modeling with temperature and epidemic shocks: A three-state regime-switching approach. LIDAM Discussion Paper ISBA - 2025/06.</li>
+            </ol>
+          </section>
+        </section>
+
+        <section id="ouvrages" class="anchor">
+<p class=MsoNormal style='text-align:justify'><b><i><span style='font-size:
+14.0pt;line-height:115%'>Ouvrages de recherche et d’enseignement<o:p></o:p></span></i></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b><i><span style='font-size:
+14.0pt;line-height:115%'>Nouveautés 2025<o:p></o:p></span></i></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><span
+style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Image_x0020_16"
+ o:spid="_x0000_i1043" type="#_x0000_t75" alt="Une image contenant texte, capture d’écran, Police, graphisme&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:130.8pt;height:197.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image007.jpg"
+  o:title="Une image contenant texte, capture d’écran, Police, graphisme&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=174 height=263
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image008.jpg"
+alt="Une image contenant texte, capture d’écran, Police, graphisme&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_16"><![endif]></span><b><i><span style='font-size:14.0pt;
+line-height:115%'><span style='mso-spacerun:yes'>           </span></span></i></b><b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'><span
+style='font-size:14.0pt;line-height:115%;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Image_x0020_1" o:spid="_x0000_i1042" type="#_x0000_t75" alt="Une image contenant texte, capture d’écran, bleu vert, affiche&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:139.8pt;height:195.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image009.jpg"
+  o:title="Une image contenant texte, capture d’écran, bleu vert, affiche&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=186 height=261
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image010.jpg"
+alt="Une image contenant texte, capture d’écran, bleu vert, affiche&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_1"><![endif]></span></i></b><b><i><span style='font-size:
+14.0pt;line-height:115%'><o:p></o:p></span></i></b></p>
+
+<p class=MsoNormal align=center style='text-align:center'><b><i><span
+style='font-size:14.0pt;line-height:115%'><o:p>&nbsp;</o:p></span></i></b></p>
+
+<p class=MsoNormal><b><i><span style='font-size:14.0pt;line-height:115%'>Dans
+la bibliothèque…<o:p></o:p></span></i></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Image_x0020_2" o:spid="_x0000_i1041" type="#_x0000_t75" alt="Une image contenant texte, capture d’écran, Police, conception&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:112.8pt;height:171pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image011.jpg"
+  o:title="Une image contenant texte, capture d’écran, Police, conception&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=150 height=228
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image012.jpg"
+alt="Une image contenant texte, capture d’écran, Police, conception&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_2"><![endif]></span><span style='mso-spacerun:yes'>    
+</span><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Image_x0020_3"
+ o:spid="_x0000_i1040" type="#_x0000_t75" style='width:111.6pt;height:169.8pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image013.jpg"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=149 height=226
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image014.jpg"
+v:shapes="Image_x0020_3"><![endif]></span><span
+style='mso-spacerun:yes'>    </span><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Image_x0020_4" o:spid="_x0000_i1039" type="#_x0000_t75" alt="Une image contenant texte, capture d’écran, Police, graphisme&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:111.6pt;height:169.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image015.jpg"
+  o:title="Une image contenant texte, capture d’écran, Police, graphisme&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=149 height=226
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image016.jpg"
+alt="Une image contenant texte, capture d’écran, Police, graphisme&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_4"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Image_x0020_5" o:spid="_x0000_i1038" type="#_x0000_t75" alt="Une image contenant texte, capture d’écran, graphisme, Police&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:121.8pt;height:184.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image017.jpg"
+  o:title="Une image contenant texte, capture d’écran, graphisme, Police&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=162 height=246
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image018.jpg"
+alt="Une image contenant texte, capture d’écran, graphisme, Police&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_5"><![endif]></span><span style='mso-spacerun:yes'>   
+</span><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Image_x0020_6"
+ o:spid="_x0000_i1037" type="#_x0000_t75" alt="Une image contenant texte, capture d’écran, graphisme, conception&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:123pt;height:184.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image019.jpg"
+  o:title="Une image contenant texte, capture d’écran, graphisme, conception&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=164 height=246
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image020.jpg"
+alt="Une image contenant texte, capture d’écran, graphisme, conception&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_6"><![endif]></span><span
+style='mso-spacerun:yes'>   </span><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Image_x0020_7" o:spid="_x0000_i1036" type="#_x0000_t75" style='width:114.6pt;
+ height:182.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image021.jpg"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=153 height=243
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image022.jpg"
+v:shapes="Image_x0020_7"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Image_x0020_14" o:spid="_x0000_i1035" type="#_x0000_t75" alt="Une image contenant texte, capture d’écran, Police, Impression&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:120.6pt;height:183pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image023.jpg"
+  o:title="Une image contenant texte, capture d’écran, Police, Impression&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=161 height=244
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image024.jpg"
+alt="Une image contenant texte, capture d’écran, Police, Impression&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_14"><![endif]></span><span style='mso-spacerun:yes'>   
+</span><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Image_x0020_15"
+ o:spid="_x0000_i1034" type="#_x0000_t75" alt="Une image contenant texte, capture d’écran, ciel, ligne&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:123.6pt;height:181.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image025.jpg"
+  o:title="Une image contenant texte, capture d’écran, ciel, ligne&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=165 height=242
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image026.jpg"
+alt="Une image contenant texte, capture d’écran, ciel, ligne&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_15"><![endif]></span><span
+style='mso-spacerun:yes'>    </span><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Image_x0020_19" o:spid="_x0000_i1033" type="#_x0000_t75" alt="Une image contenant texte, capture d’écran, graphisme, Graphique&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:113.4pt;height:181.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image027.jpg"
+  o:title="Une image contenant texte, capture d’écran, graphisme, Graphique&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=151 height=242
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image028.jpg"
+alt="Une image contenant texte, capture d’écran, graphisme, Graphique&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_19"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-spacerun:yes'>  
+</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Image_x0020_20" o:spid="_x0000_i1032" type="#_x0000_t75" alt="Une image contenant texte, capture d’écran, graphisme, affiche&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:114.6pt;height:175.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image029.jpg"
+  o:title="Une image contenant texte, capture d’écran, graphisme, affiche&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=153 height=234
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image030.jpg"
+alt="Une image contenant texte, capture d’écran, graphisme, affiche&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_20"><![endif]></span><span style='mso-spacerun:yes'> 
+</span><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Image_x0020_21"
+ o:spid="_x0000_i1031" type="#_x0000_t75" alt="Une image contenant texte, livre, capture d’écran, affiche&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:114pt;height:175.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image031.jpg"
+  o:title="Une image contenant texte, livre, capture d’écran, affiche&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=152 height=234
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image032.jpg"
+alt="Une image contenant texte, livre, capture d’écran, affiche&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_21"><![endif]></span><span
+style='mso-spacerun:yes'>   </span><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Image_x0020_22" o:spid="_x0000_i1030" type="#_x0000_t75" alt="Une image contenant texte, livre, Police, Impression&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:123pt;height:176.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image033.jpg"
+  o:title="Une image contenant texte, livre, Police, Impression&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=164 height=235
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image034.jpg"
+alt="Une image contenant texte, livre, Police, Impression&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_22"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Image_x0020_10" o:spid="_x0000_i1029" type="#_x0000_t75" style='width:121.8pt;
+ height:188.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image035.jpg"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=162 height=251
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image036.jpg"
+v:shapes="Image_x0020_10"><![endif]></span><span style='mso-spacerun:yes'>  
+</span><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Image_x0020_11"
+ o:spid="_x0000_i1028" type="#_x0000_t75" style='width:120pt;height:187.2pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image037.jpg"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=160 height=250
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image038.jpg"
+v:shapes="Image_x0020_11"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Image_x0020_8" o:spid="_x0000_i1027" type="#_x0000_t75" alt="Une image contenant texte, conception, capture d’écran, graphisme&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+ style='width:119.4pt;height:181.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image039.jpg"
+  o:title="Une image contenant texte, conception, capture d’écran, graphisme&#10;&#10;Le contenu généré par l’IA peut être incorrect"/>
+</v:shape><![endif]--><![if !vml]><img width=159 height=242
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image040.jpg"
+alt="Une image contenant texte, conception, capture d’écran, graphisme&#10;&#10;Le contenu généré par l’IA peut être incorrect."
+v:shapes="Image_x0020_8"><![endif]></span><span style='mso-spacerun:yes'>  
+</span><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Image_x0020_12"
+ o:spid="_x0000_i1026" type="#_x0000_t75" style='width:118.2pt;height:181.8pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image041.jpg"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=158 height=242
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image042.jpg"
+v:shapes="Image_x0020_12"><![endif]></span><span
+style='mso-spacerun:yes'>   </span><span style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Image_x0020_13" o:spid="_x0000_i1025" type="#_x0000_t75" style='width:117.6pt;
+ height:181.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image043.jpg"
+  o:title=""/>
+</v:shape><![endif]--><![if !vml]><img width=157 height=242
+src="RapportDActivites2024-2025_Perspectives2025-2026%20-%20bis_fichiers/image044.jpg"
+v:shapes="Image_x0020_13"><![endif]></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span
+style='mso-spacerun:yes'>    </span><span style='mso-spacerun:yes'>   </span></p>
+        </section>
+
+<p class=MsoNormal style='text-align:justify'><b><span lang=FR
+style='font-size:18.0pt;line-height:115%;mso-ansi-language:FR'>Séminaires et
+ateliers<o:p></o:p></span></b></p>
+
+        <section id="seminaires" class="anchor">
+				 <p class=MsoNormal style='text-align:justify'>Afin de consolider le réseau ISBA
+		au sein de la communauté actuarielle, scientifique et professionnelle,
+		plusieurs séminaires ont été organisés en 2024-2025 sur des thématiques
+		variées. Ces rencontres s’adressaient tant aux étudiants qu’aux chercheurs.</p>
+
+		<p class=MsoNormal style='text-align:justify'>Dans ce cadre, <b>Quentin Guibert</b>
+		(Université Paris-Dauphine, France) nous a parlé le 18/10/24 de l’impact du
+		changement climatique sur la mortalité,&nbsp;avec une étude de cas sur les
+		données françaises. Il a présenté un modèle combinant une approche stochastique
+		de la mortalité et épidémiologique liée au climat.</p>
+
+		<p class=MsoNormal style='text-align:justify'><span lang=FR style='mso-ansi-language:
+		FR'>Le 28/11/2024, <b>Eddy Vanbeneden</b> (Guy Carpenter &amp; Co, Belgique) </span>a
+		abordé la question de la durabilité climatique et de la réassurance dans un
+		monde en mutation. Ces thèmes ont été traités sous l’angle de l’ESG et de la
+		gestion des risques. Les étudiants ont ensuite échangé avec l’orateur sur les
+		mesures adaptatives à mettre en place face à ces enjeux.</p>
+
+		<p class=MsoNormal style='text-align:justify'><b>Xavier Milhaud</b> (Université
+		Aix-Marseille, France) a présenté le 6/12/24 une extension d’un modèle
+		paramétrique de mortalité intégrant l’impact du réchauffement climatique. Cette
+		approche permet notamment d’extrapoler les tables de mortalité à partir des
+		scénarios du GIEC. </p>
+
+		<p class=MsoNormal style='text-align:justify'><b>Daniel Bauer</b> (Wisconsin
+		School of Business, USA) a animé le 24/2/25 un séminaire consacré au calcul des
+		fonds propres réglementaires à l’aide de la méthode des <i>Least-Squares Monte
+		Carlo</i>. Il a notamment expliqué aux étudiants comment réconcilier les
+		scénarios en monde risque-neutre et en monde réel, dans une perspective de
+		gestion des risques.</p>
+
+		<p class=MsoNormal style='text-align:justify'>Lors de sa visite du 21/3/2025 à
+		l’ISBA, <span class=SpellE><b>Marie-Pier</b></span><b> Côté</b> (Université
+		Laval, Canada) a présenté un modèle hiérarchique pour les réclamations en
+		assurance de dommages, permettant d’affiner les méthodes traditionnelles en
+		tenant compte de la dépendance entre les occurrences de paiement.</p>
+
+		<p class=MsoNormal style='text-align:justify'>Le 24/3/2025, nous avons
+		accueilli <b>Félix <span class=SpellE>Vandervost</span></b> (Allianz,
+		Belgique). Après avoir présenté l’évolution de l’intelligence artificielle et
+		les solutions déjà existantes, il a montré aux étudiants les applications de
+		l’IA générative en assurance ainsi que les développements en cours chez Allianz
+		Benelux.</p>
+
+		<p class=MsoNormal style='text-align:justify'>Enfin, <b>Jens Robben</b> (<span
+		class=SpellE>University</span> of Amsterdam, Pays-Bas) a animé un atelier en
+		deux sessions le 12/4/2025 sur l’association à court terme entre les variables
+		environnementales et la mortalité en Europe. Il a présenté un cadre de
+		modélisation combinant une tendance saisonnière régionale et des algorithmes
+		d’apprentissage automatique pour expliquer les écarts de mortalité hebdomadaire
+		à partir de données climatiques et de pollution. Une étude de cas pratique en R
+		a permis aux participants de mettre en œuvre une version simplifiée du modèle,
+		illustrant notamment l’effet des vagues de chaleur et les disparités régionales
+		observées.</p>
+
+		<p class=MsoNormal style='text-align:justify'>Vu le succès de ces séminaires,
+		le master en sciences actuarielles a intégré à la rentrée 2025-2026 un nouveau
+		cours intitulé <b>« Risques émergents et enjeux de société »</b>, articulé
+		autour de présentations données par des intervenants issus du monde académique
+		ou du secteur de l’assurance. Par ce biais, nous espérons sensibiliser les
+		étudiants aux nombreux défis auxquels l’actuaire peut contribuer par ses
+		compétences.</p>
+
+		<p class=MsoNormal style='text-align:justify'>Dans ce cadre, nous aurons le
+		plaisir d’accueillir prochainement <b>David <span class=SpellE>Bresch</span></b>
+		(ETH Zurich), <b>Bruno Didier</b> et <b>Hein Lannoy</b> (<span class=SpellE>Assuralia</span>),
+		<b>Hilde <span class=SpellE>Vernaillen</span></b> (P&amp;V), ainsi que d’autres
+		invités d’exception, pour aborder des thématiques variées telles que le climat,
+		l’IA, la régulation, l’inclusion et bien d’autres encore.</p>
+
+        </section>
+
+        <section id="conferences" class="anchor">
+          <h2>Participation à des conférences</h2>
+          <p>La qualité de la recherche en sciences actuarielles à l’UCLouvain est reconnue internationalement et couvre de nombreuses thématiques, tant en assurance vie qu’en assurance non-vie. En 2024-2025, les membres de l’équipe ont eu l’opportunité de présenter leurs travaux lors de plusieurs conférences de haut niveau. La majorité des working papers présentés est disponible gratuitement dans le dépôt numérique institutionnel de l’UCLouvain (<a href="https://dial.uclouvain.be/pr/boreal/" target="_blank" rel="noopener">https://dial.uclouvain.be/pr/boreal/</a>). </p>
+          <p>Liste des événements :</p>
+          <ul>
+            <li>22-25/09/2024 – JOCO, Bruxelles.  Valuation of GMAB with Physics-Inspired Neural Networks. D. Hainaut, contributed talk.</li>
+            <li>26-28/02/2025 – Workshop on Numerical Methods in Finance and Insurance, Université de Milan. Gaussian Process Regression for Option Pricing. D. Hainaut, invited talk.</li>
+            <li>21/03/2025 – Institut Henri Poincaré, Paris. American Option Pricing with Constrained Gaussian Process Regressions. D. Hainaut, invited talk.</li>
+            <li>18-23/5/2025 – Perspectives on Actuarial Risks in Talks of Young researchers (PARTY), Liverpool (18-23/05/2025) Variational AutoEncoder for synthetic insurance data. C. Jamotton, contributed talk.</li>
+            <li>19-20/6/25 - Insurance Data Science (IDS), London. A multivariate energy-based fairness adjuster for premiums. C. Jamotton, contributed talk.</li>
+            <li>1-4/7/25 - Insurance: Mathematics and Economics (IME), Tartu. A multivariate energy-based fairness adjuster for premiums. C. Jamotton, contributed talk.</li>
+            <li>9/2025 - Stochastics and Computational Finance 2025, Lisbon, Portugal. The Volterra Stein-Stein model with stochastic interest rates. E. Motte, contributed talk.</li>
+            <li>7/2025 - Vienna Congress on Mathematical Finance 2025, Vienna, Austria. The Volterra Stein-Stein model with stochastic interest rates. E. Motte, contributed talk.</li>
+            <li>9/2024 - European Actuarial Journal Conference 2024, Lisbon, Portugal. Efficient hedging of life insurance portfolio for loss-averse insurers. E. Motte, contributed talk.</li>
+            <li>9/2024 - European Actuarial Journal Conference 2024, Lisbon, Portugal. The three-step method in a dynamic setting. O. Belhouari, contributed talk.</li>
+            <li>09/2024 - AMASES 2024, Ischia, Italy. Optimal life annuitization and investment strategy in a stochastic mortality and financial framework. P. Devolder, invited talk.</li>
+            <li>23/9/2024 - JoCo2024 - Joint Colloquium of all IAA Sections, Brussels (Belgium), Insurer's management discretion: Self-hedging endogenous participating life insurance. K. Barigou, contributed talk.</li>
+            <li>03/10/2024 - Statistics Seminar- KU Leuven. Monotonicity of conditional expectations given the sum. P. Ortega-Jiménez, invited talk.</li>
+            <li>16/10/2024 - OWARS seminar, Bayesian mortality modelling with pandemics: a vanishing jump approach. K. Barigou, invited talk.</li>
+            <li>07-08/11/2024 - 31st Annual Meeting of the RSSB. Monotonic conditional expectations given the sum for dependent-by-mixture risks. P. Ortega-Jiménez, contributed talk.</li>
+            <li>11/02/2025 - ASTeRISK EOS Workshop. No-sabotage condition on conditional mean risk sharing for heavy-tailed risks.  P. Ortega-Jiménez, contributed talk.</li>
+            <li>7/2/2025 - CREST seminar on actuarial science and contemporary risks, Adapting mortality models to pandemic and climate shocks: A Bayesian vanishing jump and regime-switching framework. K. Barigou, invited talk.</li>
+            <li>20/3/2025 - Doctoral School Seminar (EDT Day), Université libre de Bruxelles (ULB). Granular mortality modelling with temperature and epidemic shocks: A three-state regime-switching approach. K. Barigou, invited talk.</li>
+            <li>15/4/2025 - IAALS Webinar, International Actuarial Association. Granular mortality modelling with temperature and epidemic shocks: A three-state regime-switching approach. K. Barigou, invited talk.</li>
+            <li>05/2025 - International Conference on Pensions, Insurance and Savings, Lisbon, Portugal. Inter and intra generational solidarities in an aging PAYG environment. P. Devolder, invited talk.</li>
+            <li>06/2055 - UNISActuarial school 2025, Salerno, Italy. Valuation in finance and in insurance: The same game? P. Devolder, guest speaker.</li>
+            <li>11/6/2025 - AFRIC 2 (Actuarial, Finance, Risk and Insurance Congress), Masai Mara (Kenya). Granular mortality modelling with temperature and epidemic shocks: A three-state regime-switching approach. K. Barigou, contributed talk.</li>
+          </ul>
+        </section>
+
+        <section id="projets" class="anchor">
+         <p class=MsoNormal style='text-align:justify'><b><span style='font-size:18.0pt;
+line-height:115%'>Projets de recherche en cours<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><b><i><span style='font-size:
+14.0pt;line-height:115%'>Excellence of Science (FNRS-FWO)<o:p></o:p></span></i></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Depuis 2022, l’ISBA (<span
+class=SpellE>UCLouvain</span>) et la KU Leuven collaborent dans le cadre d’un
+financement <b>EOS</b> (Excellence of Science) sur une durée de quatre ans. Ce
+projet vise à développer des méthodes innovantes en actuariat et en statistique
+afin de répondre à des enjeux contemporains tels que l’équité en assurance,
+l’accès à la couverture pour des risques non standards, ou encore les nouvelles
+formes de mutualisation des risques. Les recherches se structurent en plusieurs
+axes.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Clustering et intelligence
+artificielle en assurance</b> : nos chercheurs explorent de nouvelles approches
+pour regrouper des assurés à partir de données complexes (variables
+catégorielles, données multi-types). Des travaux récents portent sur l’usage <b>de
+réseaux de neurones et d’<span class=SpellE>autoencodeurs</span> <span
+class=SpellE>variationnels</span></b> pour identifier des profils de risque et
+générer des données synthétiques, utiles notamment pour des questions de
+confidentialité et de biais. D’autres publications se concentrent sur la
+tarification avec variables hiérarchiques (par ex. codes NACE en assurance
+accidents du travail).</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Accès à l’assurance pour des
+risques non standards</b> : un volet important concerne l’évaluation de la
+mortalité des survivants du cancer et l’étude de leur accès à des produits
+d’assurance comme l’assurance emprunteur. Nos chercheurs proposent de nouveaux
+modèles multi-états pour mesurer l’excès de risque et contribuer à la mise en
+œuvre du <b>« droit à l’oubli »</b>. Des perspectives s’ouvrent également sur
+d’autres pathologies chroniques, telles que le VIH.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Équité et tarification
+transparente</b> : avec la montée en puissance des données massives et de l’IA
+en assurance, la question de <b>l’équité algorithmique</b> devient centrale.
+Des recherches sont en cours pour développer des méthodes de tarification
+dynamiques, intégrant par exemple des données issues de capteurs (IoT), tout en
+respectant des contraintes de non-discrimination et de transparence.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Nouvelles règles de partage
+des risques</b> : enfin, l’équipe s’intéresse aux modèles de mutualisation
+innovants, comme le <b>peer-to-peer <span class=SpellE>insurance</span></b>.
+Des avancées théoriques ont permis de mieux comprendre les propriétés des
+règles de partage et de proposer de nouveaux schémas transparents et
+actuariellement solides, conciliant viabilité et équité entre participants.</p>
+
+<p class=MsoNormal style='text-align:justify'>Ce projet EOS a déjà donné lieu à
+de nombreuses publications dans des revues de premier plan (ASTIN Bulletin, <span
+class=SpellE>Scandinavian</span> <span class=SpellE>Actuarial</span> Journal,
+Journal of Risk and Insurance, etc.) et favorise une collaboration active entre
+les chercheurs de l’<span class=SpellE>UCLouvain</span> et de la <span
+class=SpellE>KULeuven</span>. Au-delà des résultats académiques, il contribue à
+rapprocher la recherche de problématiques concrètes pour le secteur de
+l’assurance et de la gestion des risques.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Chercheurs <span class=SpellE>UCLouvain</span></b>
+financé par le projet&nbsp;: Charlotte Jamotton, Patricia Ortega, José Miguel
+Flores <span class=SpellE>Contró</span>, Valentin <span class=SpellE>Dendoncker</span>.</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Professeurs <span
+class=SpellE>UCLouvain</span></b>&nbsp;: Michel Denuit, Donatien Hainaut,
+Catherine Legrand, Anouar El-Ghouch</p>
+
+<p class=MsoNormal style='text-align:justify'><b>Professeurs <span
+class=SpellE>KULeuven</span></b>&nbsp;: Katrien Antonio, Gerda Claeskens, Jan
+Dhaene, Ingrid Van Keilegom</p>
+
+<p class=MsoNormal style='text-align:justify'>En parallèle de ce projet
+institutionnel, nous avons des chercheurs boursiers financés soit par le FNRS
+ou l’<span class=SpellE>UCLouvain</span>.</p>
+
+<p class=MsoNormal style='text-align:justify'><b><i><span style='font-size:
+14.0pt;line-height:115%'>FRIA (FRS-FNRS)<o:p></o:p></span></i></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Le projet de doctorat d’Édouard
+Motte, supervisé par Donatien Hainaut, porte sur la <b>couverture partielle des
+passifs actuariels exposés au risque d’inflation</b>. Alors que les marchés
+financiers incomplets rendent la couverture parfaite (super-<span class=SpellE>hedging</span>)
+trop coûteuse, l’objectif est de développer des stratégies de <b>partial <span
+class=SpellE>hedging</span></b> permettant de maximiser la probabilité de
+couverture ou de minimiser les pertes à moindre coût. Ce travail innove en
+intégrant explicitement le <b>risque d’inflation</b>, qui menace la solvabilité
+des assureurs, notamment en assurance non-vie. À l’aide de méthodes numériques,
+de simulations et de techniques de <i>machine <span class=SpellE>learning</span></i>,
+le projet vise à concevoir des stratégies de couverture dynamiques (sur actifs
+négociables) et statiques (sur produits cotés), offrant ainsi des solutions
+réalistes et robustes pour gérer l’exposition des compagnies d’assurance à un
+large éventail de risques financiers et actuariels.</p>
+
+<p class=MsoNormal style='text-align:justify'><b><i><span style='font-size:
+14.0pt;line-height:115%'>Fonds Spéciaux de Recherche (FSR, <span class=SpellE>UCLouvain</span>)<o:p></o:p></span></i></b></p>
+
+<p class=MsoNormal style='text-align:justify'>Le projet de doctorat de <span
+class=SpellE>Kenrick</span> So, encadré par Karim Barigou, s’attaque aux défis
+posés par le <b>changement climatique sur la gestion des risques en
+assurance-vie</b>. Face à l’augmentation de la fréquence et de la sévérité des
+événements climatiques extrêmes, il devient crucial pour les assureurs
+d’améliorer la prévision de la mortalité et la gestion des pertes financières.
+Ce projet vise à développer des techniques de machine <span class=SpellE>learning</span>
+(réseaux de neurones LSTM, réseaux «&nbsp;<span class=SpellE><i>physics-informed</i></span>&nbsp;»)
+et d’autres approches stochastiques pour intégrer l’impact du climat dans la
+prévision de la mortalité, la tarification de produits liés au climat (cat
+bonds) et la gestion des portefeuilles d’assureurs. Ce travail fournira aux
+assureurs des outils pratiques pour anticiper les effets des événements climatiques
+extrêmes et renforcer la résilience du secteur.</p>
+
+<p class=MsoNormal style='text-align:justify'><b style='mso-bidi-font-weight:
+normal'><i><span style='font-size:14.0pt;line-height:115%'>Chaire Ethias sur
+les pensions complémentaires <o:p></o:p></span></i></b></p>
+
+<p class=MsoNormal style='text-align:justify'>La chaire Ethias sur les
+pensions, encadrée par les professeurs Pierre Devolder et Jean Hindriks, se
+concentre sur les pensions complémentaires et poursuit trois objectifs : la
+recherche, l’enseignement et le service à la société, et ce dans un esprit interdisciplinaire
+rassemblant des compétences d’ordre actuariel, économique et juridique. </p>
+
+<p class=MsoNormal style='text-align:justify'>Au niveau de la recherche, la
+chaire vise à étudier de manière critique les impacts de réformes des pensions
+publiques sur les pensions complémentaires, de proposer de nouveaux mécanismes
+et d’en étudier la transition par rapport aux schémas actuels. </p>
+
+<p class=MsoNormal style='text-align:justify'>La chaire constitue également un
+instrument de pérennisation de l’enseignement de la matière des pensions à l’<span
+class=SpellE>UCLouvain</span>, au travers notamment d’un cycle de conférences
+(Pensions’ <span class=SpellE>mornings</span>) portant sur les problèmes et les
+enjeux des régimes de pensions, aux niveaux belge et européen. <span
+style='mso-spacerun:yes'> </span>Trois conférences rassemblant à chaque fois
+une centaine de personnes ont été organisées en 2025.</p>
+
+<p class=MsoNormal style='text-align:justify'>Dans le cadre de cette chaire,
+une recherche doctorale menée par Anna <span class=SpellE>Queck</span> sous la
+supervision des professeurs Hindriks et Devolder est en cours sur le
+financement des pensions des administrations locales belges et des mécanismes
+sous-jacents de partage des risques et de solidarité.</p>
+      </section>
+
+        <section id="master" class="anchor">
+          <h2>Nouveautés dans le cadre du master en sciences actuarielles (ACTU2M)</h2>
+          <p>Le master en sciences actuarielles a été modifié à deux reprises ces dernières années afin de réorganiser les enseignements pour suivre l’évolution de la profession, tout en améliorant l’attractivité du programme.</p>
+          <p>Grâce au soutien de la Faculté des Sciences, des séances de travaux pratiques ont pu être ajoutées à certains cours de base. Afin d’encore mieux préparer les étudiants à leur insertion professionnelle en les sensibilisant aux risques émergents et aux enjeux de société associés, nous avons également pu pérenniser les séminaires organisés informellement dans le passé.</p>
+          <p>Suite à ces modifications, le programme ACTU2M s’établit actuellement comme suit :</p>
+
+          <h3>Tronc commun (70 crédits)</h3>
+          <h4>Mémoire (15 crédits), au choix</h4>
+          <ul>
+            <li>LACTU2900&nbsp;&nbsp;Mémoire  recherche&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15 crédits</li>
+            <li>LACTU2910&nbsp;&nbsp;Mémoire projet&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15 crédits</li>
+          </ul>
+
+          <h4>Mathématiques de l’assurance (33 crédits)</h4>
+          <ul>
+            <li>LACTU2010&nbsp;&nbsp;Actuariat des assurances dommages&nbsp;&nbsp;45h+7.5h&nbsp;&nbsp;7 crédits</li>
+            <li>LACTU2030&nbsp;&nbsp;Actuariat de l’assurance-vie&nbsp;&nbsp;30h+7.5h&nbsp;&nbsp;5 crédits</li>
+            <li>LACTU2040&nbsp;&nbsp;Actuariat de la sécurité sociale et des régimes de retraite&nbsp;&nbsp;30h+7.5h&nbsp;&nbsp;5 crédits</li>
+            <li>LACTU2170&nbsp;&nbsp;Valorisation financière des engagements actuariels&nbsp;&nbsp;45h + 15h&nbsp;&nbsp;7 crédits</li>
+            <li>LACTU2280&nbsp;&nbsp;Réassurance et échanges de risque&nbsp;&nbsp;15h&nbsp;&nbsp;3 crédits</li>
+            <li>LACTU2320&nbsp;Risques émergents et enjeux de société 1&nbsp;&nbsp;15h&nbsp;&nbsp;3 crédits</li>
+            <li>LACTU2330&nbsp;Risques émergents et enjeux de société 2&nbsp;&nbsp;15h&nbsp;&nbsp;3 crédits</li>
+          </ul>
+
+          <h3>Data science (22 crédits)</h3>
+          <ul>
+            <li>LSTAT2020&nbsp;&nbsp;Logiciels et programmation statistique de base&nbsp;&nbsp;15h+15h&nbsp;&nbsp;4 crédits</li>
+            <li>LACTU2150&nbsp;&nbsp;Analyse statistique des données d’assurance&nbsp;&nbsp;30h+7.5h&nbsp;&nbsp;5 crédits</li>
+            <li>LACTU2160&nbsp;&nbsp;Méthodes actuarielles de segmentation&nbsp;&nbsp;45h&nbsp;&nbsp;7 crédits </li>
+            <li>LACTU2310&nbsp;&nbsp;Statistical learning methods for insurance&nbsp;&nbsp;15h&nbsp;&nbsp;3 crédits</li>
+            <li>LDATS2310&nbsp;&nbsp;Deep learning pour l’assurance et la finance&nbsp;&nbsp;15h&nbsp;&nbsp;3 crédits</li>
+          </ul>
+
+          <h3>Finalité spécialisée (30 crédits)</h3>
+          <ul>
+            <li>LACTU2210&nbsp;&nbsp;Quantitative Risk Management&nbsp;&nbsp;30h&nbsp;&nbsp;5 crédits</li>
+            <li>LACTU2220&nbsp;&nbsp;Asset and Liability Management&nbsp;&nbsp;30h&nbsp;&nbsp;5 crédits</li>
+            <li>LACTU2230&nbsp;&nbsp;Actuariat des assurances de personnes&nbsp;&nbsp;45h&nbsp;&nbsp;7 crédits</li>
+            <li>LACTU2240&nbsp;&nbsp;Actuariat de la finance : processus avancés et ingénierie de l’assurance-vie&nbsp;&nbsp;30h&nbsp;&nbsp;5 crédits</li>
+            <li>LACTU2270&nbsp;&nbsp;Aspects actuariels des normes de solvabilité et comptables&nbsp;&nbsp;30h&nbsp;&nbsp;5 crédits</li>
+            <li>LACTU2260&nbsp;&nbsp;Actuarial Enterprise Risk Management&nbsp;&nbsp;15h&nbsp;&nbsp;3 crédits</li>
+          </ul>
+
+          <h3>Cours au choix (20 crédits)</h3>
+          <p>L’étudiant complète son programme avec des cours qu’il choisit en fonction de son projet professionnel. Dans le cadre d'une collaboration entre les programmes de master en sciences actuarielles de l'UCLouvain, de l’ULB (depuis 2016) et de la KULeuven (depuis 2010), les étudiants des trois universités ont l'opportunité de suivre certains enseignements spécialisés dans une des deux autres institutions.</p>
+          <p>Tous les détails de ces différentes activités se trouvent sur <a href="https://uclouvain.be/prog-2025-actu2m" target="_blank" rel="noopener">https://uclouvain.be/prog-2025-actu2m</a></p>
+        </section>
+
+        <section id="admission" class="anchor">
+          <h2>Admission au programme</h2>
+          <p>Les sciences actuarielles n’étant enseignées qu’un niveau du master, il est important d’attirer les meilleurs étudiants des programmes qui y donnent accès. Ceci se fait par une stratégie de « passerelles » permettant aux étudiants des programmes de mathématiques, mathématiques appliquées et d’ingénieur de gestion d’inclure certains cours de base de la discipline dans leur programme de master. Des options dédiées à l’assurance sont ainsi proposées dans ces programmes, facilitant la transition des diplômés qui le souhaitent vers le programme ACTU2M.</p>
+          <p>La mineure d’accès en sciences actuarielles complète ce dispositif en permettant aux diplômés de toutes les filières d’intégrer le master en sciences actuarielles moyennant la réussite des cours de mathématique, probabilité et statistique qui la composent.</p>
+          <p>Les étudiants en mobilité internationale sont admissibles sur dossier pour autant qu’ils aient obtenu une moyenne d’au moins 14/20 (grade de distinction) dans le diplôme qui leur donne accès au master, sans échec dans les cours de mathématique, probabilité et statistique.</p>
+        </section>
+
+        <section id="formation-continue" class="anchor">
+          <h2>Formation continue</h2>
+          <p>L’UCLouvain a été pionnière en matière de formation continue en sciences actuarielles grâce aux certificats d’université qu’elle propose depuis plus de 20 ans. Le succès de ces programmes s’explique notamment par l’alignement de plusieurs thématiques de recherche sur les besoins du secteur de l’assurance, en plus des thèmes de recherche fondamentale. La formation continue s’inscrit donc tout naturellement dans cette démarche. </p>
+          <p>L’offre de formation continue évolue en fonction des besoins. Ainsi, le certificat d’université « Finance quantitative et ALM » proposé pendant plus de deux décennies (sa 21ème et dernière édition a eu lieu l’année académique 2023-2024) a cédé la place à un nouveau certificat orienté vers la data science.</p>
+          <p>L’offre de formation continue en sciences actuarielles s’article actuellement autour de deux certificats d’université.</p>
+
+          <h3>Le certificat « initiation à l’actuariat », la porte d’entrée vers ACTU2M</h3>
+          <p>Ce certificat d’université, qui en est à sa 23ème édition, permet aux professionnels désireux de reprendre des études d’acquérir des bases solides en sciences actuarielles, tant en assurance vie que non-vie. </p>
+          <p>Le certificat d’université « Initiation à l’actuariat » peut constituer l’amorce d’une formation plus complète en sciences actuarielles dans la mesure où il est étroitement lié au programme ACTU2M. Ainsi, Les professionnels en reprise d'études sont invités à suivre d'abord le certificat d’initiation à l’actuariat afin d'apprécier la mesure dans laquelle le programme ACTU2M leur permettra d'atteindre les objectifs qu'ils se sont fixés. En cas de poursuite, les crédits acquis dans le cadre du certificat peuvent être valorisés dans le programme ACTU2M.</p>
+          <p>Toutes les informations se trouvent sur <a href="https://uclouvain.be/prog-2025-acti2fc" target="_blank" rel="noopener">https://uclouvain.be/prog-2025-acti2fc</a></p>
+
+          <h3>Le certificat « data science appliquée à l’assurance »</h3>
+          <p>Le lancement de ce nouveau certificat en 2025-2026 s’appuie sur la réforme du programme ACTU2M entrée en vigueur en 2024-2025, renforçant la composante data science du programme comme le préconise l’Association Actuarielle Européenne (AAE). </p>
+          <p>Ce certificat comprend 4 modules de 15 heures :</p>
+          <ul>
+            <li>Python coding: révision des fondamentaux du codage en Python.</li>
+            <li>Statistical learning methods for insurance: machine learning actuariel en R.</li>
+            <li>Deep learning for insurance &amp; finance: réseaux de neurones en TensorFlow.</li>
+            <li>Data Mining: algorithmes de fouille des données en Scikit-Learn.</li>
+          </ul>
+          <p>Il s’agit d’une formation pointue, destinée aux actuaires qui souhaitent mettre à niveau leurs connaissances en data science appliquée à l’actuariat. Ce certificat est conçu pour être compatible avec une activité professionnelle à temps plein grâce à son horaire adapté. Nous prévoyons d'inclure progressivement un volet consacré à l'IA en assurance dans cette offre.</p>
+          <p>Le nouveau certificat, tout comme le certificat d’université « Initiation à l’actuariat », peut constituer l’amorce d’une formation plus complète en sciences actuarielles dans la mesure où il est étroitement lié au programme ACTU2M. En cas de poursuite, les crédits relatifs aux cours acquis dans le cadre du certificat peuvent être valorisés dans le programme ACTU2M.</p>
+          <p>Toutes les informations se trouvent sur <a href="https://uclouvain.be/prog-2025-data2fc" target="_blank" rel="noopener">https://uclouvain.be/prog-2025-data2fc</a> </p>
+        </section>
+
+        <section id="prix" class="anchor">
+          <h2>Prix et distinctions scientifiques</h2>
+          <p>L’UCLouvain peut s’enorgueillir d’une longue tradition d’excellence tant en recherche (LIDAM/ISBA) qu’en enseignement (SC/LSBA) des sciences actuarielles, comme en témoignent les nombreux prix individuels accordés aux membres de l’équipe et les distinctions suivantes.</p>
+
+          <h3>Classement Eduniversal “best master ranking”, catégorie « Insurance, Risk and Actuarial Science »</h3>
+          <p>Tout comme les programmes de master en sciences actuarielles de la KULeuven et de l’ULB, le programme ACTU2M de la LSBA occupe depuis plus d’une décennie le top 5 au niveau mondial dans le classement d’Eduniversal, catégorie « Insurance, Risk and Actuarial Science ». Notre master a retrouvé sa 1ère place dans ce classement en 2025.</p>
+          <p>Pour plus d’informations, <a href="https://www.best-masters.com/ranking-master-insurance-and-actuarial-sciences.html" target="_blank" rel="noopener">best-masters.com/ranking-master-insurance-and-actuarial-sciences.html</a> </p>
+
+          <h3>University of Nebraska-Lincoln Global Research Rankings of Actuarial Science, 2020-2024 Worldwide Rankings</h3>
+          <p>Au niveau de la recherche, l’ISBA occupe la 3ère place au niveau mondial dans le classement 2020-2024 de l’Université du Nebraska (UNL, Lincoln, USA). Ce classement reprend les 50 meilleures universités en termes d’articles scientifiques publiés dans les revues de référence du domaine (Insurance : Mathematics &amp; Economics, North American Actuarial Journal, ASTIN Bulletin et Scandinavian Actuarial Journal). </p>
+          <p>Avec un score de 16.56, l’UCLouvain est au coude à coude avec Simon Fraser University (Canada, score de 16.92). La 1ère place revient à University of Waterloo (Canada, score de 47.86) dont l’équipe compte 20 professeurs en sciences actuarielles et 23 chercheurs. Le classement ne corrigeant pas pour la taille des équipes, l’UCLouvain dominerait largement ses concurrentes si ce facteur était pris en compte.</p>
+          <p>Pour plus d’informations, <a href="https://business-applications.unl.edu/research-rankings/?views=23295" target="_blank" rel="noopener">https://business-applications.unl.edu/research-rankings/?views=23295</a></p>
+
+          <h3>Label « Global Centers of Insurance Excellence » (GCIE) de l’International Insurance Society</h3>
+          <p>Notre équipe se distingue par l’articulation étroite entre recherche et enseignement et la pertinence de ses programmes de recherche pour la pratique professionnelle, comme en atteste le label « Global Centers of Insurance Excellence » (GCIE) qui a été conféré à l’UCLouvain pour la deuxième fois par l’International Insurance Society (IIS). </p>
+          <p>Dans le monde, 37 centres ont obtenu ce prestigieux label, dont la KULeuven en Belgique.</p>
+          <p>Pour plus d’informations, <a href="https://www.internationalinsurance.org/GCIE_Program" target="_blank" rel="noopener">https://www.internationalinsurance.org/GCIE_Program</a></p>
+        </section>
+
+      </div>
+    </article>
+  </div>
+</body>
+</html>
